@@ -69,6 +69,7 @@ extension GamePlayModel {
 	}
 	
 	func resetBlindsAndCurrentPlayer() {
+		//TODO:- I feel like this should be done with a combine publisher. Publish a reset message and then each player automatically resets itself
 		for player in players {
 			player.smallBlind = false
 			player.bigBlind = false
