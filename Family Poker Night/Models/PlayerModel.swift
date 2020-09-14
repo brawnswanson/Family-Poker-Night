@@ -10,8 +10,8 @@ import Foundation
 
 class Player: ObservableObject {
 	var name: String
-	@Published var hand: [Card] = []
 	var id: Int
+	@Published var hand: [Card] = []
 	@Published var bigBlind = false
 	@Published var smallBlind = false
 	@Published var dealer = false
