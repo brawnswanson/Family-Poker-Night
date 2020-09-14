@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C48C0BAF250F86FD004655A0 /* BettingRoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C0BAE250F86FD004655A0 /* BettingRoundModel.swift */; };
 		C4B754AD250B60A400E6C600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B754AC250B60A400E6C600 /* AppDelegate.swift */; };
 		C4B754AF250B60A400E6C600 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B754AE250B60A400E6C600 /* SceneDelegate.swift */; };
 		C4B754B1250B60A400E6C600 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B754B0250B60A400E6C600 /* ContentView.swift */; };
 		C4B754B3250B60A400E6C600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B754B2250B60A400E6C600 /* Assets.xcassets */; };
 		C4B754B6250B60A400E6C600 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B754B5250B60A400E6C600 /* Preview Assets.xcassets */; };
 		C4B754B9250B60A400E6C600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B754B7250B60A400E6C600 /* LaunchScreen.storyboard */; };
+		C4B754C2250B612C00E6C600 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B754C1250B612C00E6C600 /* CardModel.swift */; };
+		C4B754C4250B643D00E6C600 /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B754C3250B643D00E6C600 /* BoardModel.swift */; };
+		C4B754C6250B64C200E6C600 /* GamePlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B754C5250B64C200E6C600 /* GamePlayModel.swift */; };
+		C4B754C8250B651900E6C600 /* DeckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B754C7250B651900E6C600 /* DeckModel.swift */; };
+		C4B754CB250B8F8700E6C600 /* CardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B754CA250B8F8700E6C600 /* CardViews.swift */; };
+		C4B754CD250B959500E6C600 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B754CC250B959500E6C600 /* PlayerModel.swift */; };
+		C4B754CF250B960600E6C600 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B754CE250B960600E6C600 /* PlayerView.swift */; };
+		C4B754D1250B9D6900E6C600 /* BlindsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B754D0250B9D6900E6C600 /* BlindsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C48C0BAE250F86FD004655A0 /* BettingRoundModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettingRoundModel.swift; sourceTree = "<group>"; };
 		C4B754A9250B60A400E6C600 /* Family Poker Night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Family Poker Night.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B754AC250B60A400E6C600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4B754AE250B60A400E6C600 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,14 @@
 		C4B754B5250B60A400E6C600 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4B754B8250B60A400E6C600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4B754BA250B60A400E6C600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4B754C1250B612C00E6C600 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		C4B754C3250B643D00E6C600 /* BoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
+		C4B754C5250B64C200E6C600 /* GamePlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayModel.swift; sourceTree = "<group>"; };
+		C4B754C7250B651900E6C600 /* DeckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckModel.swift; sourceTree = "<group>"; };
+		C4B754CA250B8F8700E6C600 /* CardViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViews.swift; sourceTree = "<group>"; };
+		C4B754CC250B959500E6C600 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		C4B754CE250B960600E6C600 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		C4B754D0250B9D6900E6C600 /* BlindsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,8 @@
 		C4B754AB250B60A400E6C600 /* Family Poker Night */ = {
 			isa = PBXGroup;
 			children = (
+				C4B754C9250B8F7800E6C600 /* Views */,
+				C4B754C0250B611900E6C600 /* Models */,
 				C4B754AC250B60A400E6C600 /* AppDelegate.swift */,
 				C4B754AE250B60A400E6C600 /* SceneDelegate.swift */,
 				C4B754B0250B60A400E6C600 /* ContentView.swift */,
@@ -73,6 +93,29 @@
 				C4B754B5250B60A400E6C600 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4B754C0250B611900E6C600 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4B754C1250B612C00E6C600 /* CardModel.swift */,
+				C4B754C3250B643D00E6C600 /* BoardModel.swift */,
+				C4B754C5250B64C200E6C600 /* GamePlayModel.swift */,
+				C4B754C7250B651900E6C600 /* DeckModel.swift */,
+				C4B754CC250B959500E6C600 /* PlayerModel.swift */,
+				C48C0BAE250F86FD004655A0 /* BettingRoundModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4B754C9250B8F7800E6C600 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4B754CA250B8F8700E6C600 /* CardViews.swift */,
+				C4B754CE250B960600E6C600 /* PlayerView.swift */,
+				C4B754D0250B9D6900E6C600 /* BlindsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +189,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48C0BAF250F86FD004655A0 /* BettingRoundModel.swift in Sources */,
 				C4B754AD250B60A400E6C600 /* AppDelegate.swift in Sources */,
+				C4B754C8250B651900E6C600 /* DeckModel.swift in Sources */,
+				C4B754CB250B8F8700E6C600 /* CardViews.swift in Sources */,
+				C4B754CF250B960600E6C600 /* PlayerView.swift in Sources */,
+				C4B754CD250B959500E6C600 /* PlayerModel.swift in Sources */,
 				C4B754AF250B60A400E6C600 /* SceneDelegate.swift in Sources */,
+				C4B754D1250B9D6900E6C600 /* BlindsView.swift in Sources */,
+				C4B754C4250B643D00E6C600 /* BoardModel.swift in Sources */,
 				C4B754B1250B60A400E6C600 /* ContentView.swift in Sources */,
+				C4B754C2250B612C00E6C600 /* CardModel.swift in Sources */,
+				C4B754C6250B64C200E6C600 /* GamePlayModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
